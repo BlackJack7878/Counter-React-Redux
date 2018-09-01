@@ -1,0 +1,52 @@
+.Counter {
+  min-width: 320px;
+}
+
+.Counter-wrapper {
+  text-align: center;
+}
+
+.Counter-wrapper h1 {
+  color: white;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.Counter-buttons {
+}
+
+.Counter-button {
+  line-height: 1;
+  font-size: 30px;
+  padding: 20px 0px;
+  display: inline-block;
+  color: white;
+  background-color: #3f35a8;
+  margin: 0 10px;
+  max-width: 90px;
+  width: 100%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Counter-button:last-child {
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.Counter-button:hover {
+  background-color: #5134c1;
+}
+
+.Counter-wrapper input {
+  margin-top: 20px;
+  outline: none;
+  max-width: 154px;
+  width: 100%;
+  padding: 20px;
+  background-color: #204356;
+  border: 3px solid #3f35a8;
+  color: white;
+  font-size: 25px;
+}
